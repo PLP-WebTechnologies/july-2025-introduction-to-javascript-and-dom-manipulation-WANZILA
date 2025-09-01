@@ -1,0 +1,94 @@
+/* Reset some default spacing */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* General page style */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  /* Header and footer */
+  header, footer {
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  header h1 {
+    font-size: 24px;
+  }
+  
+  button {
+    padding: 6px 12px;
+    margin: 5px 0;
+    border: none;
+    background: #007BFF;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #0056b3;
+  }
+  
+  /* Sections */
+  section {
+    background: #fff;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  
+  /* Inputs and rows */
+  input {
+    padding: 6px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .row {
+    margin: 10px 0;
+  }
+  
+  /* Task list */
+  ul {
+    list-style-type: none;
+    margin-top: 10px;
+  }
+  
+  li {
+    padding: 6px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    background: #f9f9f9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  li span {
+    cursor: pointer;
+  }
+  
+  /* Result box */
+  .result {
+    margin-top: 10px;
+    padding: 8px;
+    border: 1px solid #007BFF;
+    background: #e9f2ff;
+  }
+  

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>JS Assignment — Parts 1–4</title>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+  <header>
+    <h1 id="app-title">JavaScript Assignment Demo</h1>
+    <button id="theme-toggle" aria-label="Toggle dark mode">🌙 Toggle Theme</button>
+  </header>
+
+  <main>
+    <!-- PART 4 DOM: Section titles and interactive elements -->
+    <section class="card">
+      <h2>Score Analyzer</h2>
+      <p>Enter scores separated by commas (e.g., <code>80, 92, 75, 88</code>)</p>
+      <div class="row">
+        <input id="score-input" type="text" placeholder="80, 92, 75, 88"/>
+        <button id="analyze-btn">Analyze Scores</button>
+      </div>
+      <div id="score-result" class="result"></div>
+    </section>
+
+    <section class="card">
+      <h2>Task List</h2>
+      <div class="row">
+        <input id="task-input" type="text" placeholder="New task..." />
+        <button id="add-task-btn">Add Task</button>
+      </div>
+      <ul id="task-list"></ul>
+    </section>
+
+    <section class="card">
+      <h2>Loop Demos</h2>
+      <div class="row">
+        <button id="run-loops-btn">Run Loop Examples</button>
+      </div>
+      <div id="loops-output" class="result"></div>
+    </section>
+  </main>
+
+  <footer>
+    <small id="greeting"></small>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
